@@ -4,7 +4,7 @@ metadata:
   name: db-pvc
   namespace: vote
 spec:
-  storageClassName: manual
+  storageClassName: db
   accessModes:
     - ReadWriteOnce
   resources:
